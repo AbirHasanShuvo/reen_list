@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/legacy.dart';
 import 'package:reen_list/screens/my_home_page.dart';
+import 'package:reen_list/screens/selected_button.dart';
 
 void main() {
   runApp(ProviderScope(child: MyApp()));
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       // home: HomeScreen()
-      home: MyHomePage(),
+      home: SelectedButton(),
     );
   }
 }
