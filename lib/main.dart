@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/legacy.dart';
+import 'package:reen_list/screens/home_page.dart';
 import 'package:reen_list/screens/my_home_page.dart';
 import 'package:reen_list/screens/selected_button.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       // home: HomeScreen()
-      home: SelectedButton(),
+      home: HomePage(),
     );
   }
 }
